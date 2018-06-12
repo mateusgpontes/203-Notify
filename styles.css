@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#banner{
+    height: 478px;
+    background-image: url("img/background.png");
+    background-size: cover;
+    border-top: 8px solid rgb(83, 198, 94);
+    color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#bloco_banner h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 48px;
+    position: absolute;
+    top: 76px;
+    left: 255px;
+} 
+
+#bloco_banner h1 span{
+    width: 9px;
+    height: 9px;
+    border-radius: 100%;
+    background-color: rgb(83, 198, 94);
+    position: absolute;
+    left: 143px;
+    top: 53px;
+}
+
+#bloco_banner{
+    padding: 50px 200px;
+}
+
+.texto_banner{
+    
+}
+
+#icons_banner{
+    padding: 0;
+}
+
+#banner #mao{
+    height: 84%;
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+}
