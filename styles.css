@@ -2,6 +2,9 @@ body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+p{
+    color:darkgray;
+}
 
 .banner{
     background-image: url("img/background.png");
@@ -81,9 +84,6 @@ iframe{
     margin: 10px 0px;
 }
 
-.texto-video > p{
-    color: darkgray;
-}
 .texto-video > input{
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
@@ -103,6 +103,30 @@ iframe{
     color: white;
 
 }
+
+.facilita-acesso{
+    text-align: center;
+    justify-content: center;
+    margin:30px;
+}
+
+/*.facilita-acesso > .pessoas > img:hover{
+    background-clip: linear-gradient(to right,rgb(83, 198, 94)50%, rgb(83, 198, 94)50%);
+}*/
+
+.icons-fim img{
+    padding: 10px;
+    width: 20px;
+    background-color: lightgray;
+    border-radius: 100%;
+    border: none;
+}
+
+.icons-fim img:hover{
+    background-color: rgb(83, 198, 94);
+}
+
+
 @media(min-width: 768px){
     .banner{
         height: 38vw;
@@ -120,7 +144,6 @@ iframe{
 
     .conteudo p{
         margin: 30px 10%;
-        color: darkgray;
         font-size: 15px;
     }
 
