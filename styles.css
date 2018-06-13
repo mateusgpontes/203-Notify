@@ -70,6 +70,39 @@ body{
     background-color: rgb(83, 198, 94);
 }
 
+.bloco-video{
+    padding:50px 20%;
+    background-color: rgb(240, 240, 240);
+}
+
+iframe{
+    width: 100%;
+    border-radius: 13px;
+    margin: 10px 0px;
+}
+
+.texto-video > p{
+    color: darkgray;
+}
+.texto-video > input{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: none;
+    height: 30px;
+    width: 60%;
+}
+
+.texto-video > button{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+    height: 32px;
+    width: 30%;
+    background-color: rgb(83, 198, 94);
+    margin-left: -10px;
+    color: white;
+
+}
 @media(min-width: 768px){
     .banner{
         height: 38vw;
@@ -91,6 +124,29 @@ body{
         font-size: 15px;
     }
 
+    .bloco-video{
+        display: flex;
+        width: 100%;
+        padding: 0;
+        align-items: center;
+    }
+
+    .texto-video{
+        width: 80%;
+        padding-left: 10%;
+        padding-top: 20px;
+    }
+
+    .texto-video button, input{
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+
+    iframe{
+        margin-left: 40px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
 }
 
 @media(min-width: 1024px){
@@ -102,5 +158,9 @@ body{
     .banner > img{
         width: 350px;
         display: block;
+    }
+
+    .texto-video button, input{
+        font-size: 15px;
     }
 }
